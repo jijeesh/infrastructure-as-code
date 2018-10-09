@@ -9,7 +9,15 @@ Note: these Terraform templates create real resources in your AWS account. The r
 Tier](https://aws.amazon.com/free/), but if you've used up all your credits, they may cost you money.
 
 1. Install [Terraform](https://www.terraform.io/).
-2. Add your AWS credentials as the environment variables `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`.
+2. Add your AWS credentials as
+```
+https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html
+aws configure --profile jijeesh
+AWS Access Key ID [None]: AKIAI44QH8DHBEXAMPLE
+AWS Secret Access Key [None]: je7MtGbClwBF/2Zp9Utk/h3yCo8nvbEXAMPLEKEY
+Default region name [None]: us-east-1
+Default output format [None]: text
+```
 3. Run `terraform plan`.
 4. If the plan looks good, run `terraform apply`.
 
