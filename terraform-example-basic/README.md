@@ -18,8 +18,9 @@ AWS Secret Access Key [None]: je7MtGbClwBF/2Zp9Utk/h3yCo8nvbEXAMPLEKEY
 Default region name [None]: us-east-1
 Default output format [None]: text
 ```
-3. Run `terraform plan`.
-4. If the plan looks good, run `terraform apply`.
+3. Run `terraform init`
+4. Run `terraform plan`.
+5. If the plan looks good, run `terraform apply`.
 
 ## Making changes
 
