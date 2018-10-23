@@ -73,9 +73,12 @@ variable "tags" {
 
 variable "region" {
   description = "AWS Region the instance is launched in"
-  default     = ""
+  default = "us-west-2"
 }
 
+variable "profile" {
+  default = "jijeesh"
+}
 variable "availability_zone" {
   description = "Availability Zone the instance is launched in. If not set, will be launched in the first AZ of the region"
   default     = ""
